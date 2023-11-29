@@ -1,0 +1,47 @@
+.login-form {
+    border-radius: 15px;
+    background-color: white; /* Verde pastel */
+    border: 5px solid transparent; /* Borde más ancho */
+    animation: border-glow 2s infinite alternate;
+    margin: auto; /* Centrar el formulario */
+    max-width: 400px; /* Establecer un ancho máximo */
+    color: black; /* Color de texto general para el formulario */
+}
+ 
+    .login-form .form-label {
+        font-size: 1.2em; /* Tamaño de letra más grande para las etiquetas */
+    }
+ 
+    .login-form .form-control {
+        font-size: 1.1em; /* Tamaño de letra más grande para los campos de entrada */
+    }
+ 
+    .login-form h2 {
+        font-size: 2em; /* Tamaño de letra más grande para el encabezado */
+    }
+    .login-form h1 {
+        font-size: 2em; /* Tamaño de letra más grande para el encabezado */
+        font-weight: bold; /* Encabezado en negritas */
+    }
+ 
+@keyframes border-glow {
+    from {
+        border-color: #ff69b4; /* Empieza con un color llamativo */
+    }
+ 
+    to {
+        border-color: #7fffd4; /* Cambia a otro color llamativo */
+    }
+}
+ 
+/* Estilos adicionales si quieres modificar otros elementos */
+ 
+.login-container {
+    background-color: #deeb6a; /* Elige el color que prefieras */
+    padding: 20px; /* Opcional: para dar un poco más de espacio alrededor del formulario */
+    border-radius: 10px; /* Opcional: para bordes redondeados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegúrate de que el contenedor ocupe toda la altura de la ventana */
+}
